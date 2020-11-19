@@ -4,13 +4,13 @@ public class CurricularUnit {
 
     private String name;
     private double grade;
-    private int semestre;
+    private int semester;
     private double ects;
 
-    public CurricularUnit(String name, double grade, int semestre, double ects) {
+    public CurricularUnit(String name, double grade, int semester, double ects) {
         this.name = name;
         this.grade = grade;
-        this.semestre = semestre;
+        this.semester= semester;
         this.ects = ects;
     }
 
@@ -27,7 +27,7 @@ public class CurricularUnit {
     }
 
     public int getSemestre() {
-        return semestre;
+        return semester;
     }
 
     public double getEcts() {

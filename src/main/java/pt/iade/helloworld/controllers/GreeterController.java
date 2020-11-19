@@ -24,5 +24,5 @@ public class GreeterController {
         logger.info("Saying Hello to world");
         return "Hello to world";
     }
-
+    
 }
